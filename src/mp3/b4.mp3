@@ -1,0 +1,72 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN" />
+<meta name="robots" content="all" />
+<meta name="author" content="Zdic.Net" />
+<meta name="Copyright" content="zdic.net CopyRight" />
+<meta name="description" content="汉典,旨在宏扬中华文化" />
+<meta content="中文,汉语,国语,汉语字典,中文字典,成语词典,实用附录,Chinese characters, Chinese dictionary, Chinese-English dictionary, hanzi, zhongwen, hanyu, guoyu" name="keywords" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> 
+<title>404页面—汉典—zdic.net</title>
+<link rel="stylesheet" rev="stylesheet" href="/css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="/css/tab.css" type="text/css" media="all" />
+<link rel="stylesheet" rev="stylesheet" href="/css/acfy.css" type="text/css" media="all" />
+<script type="text/javascript" src="/js/domload.js"></script>
+<script type="text/javascript" src="/js/prototype.js"></script>
+<script type="text/javascript" src="/js/zac.js"></script>
+<style>
+.block {
+	border:1px solid #af9a87;
+	margin:20px;
+	height:200px;
+	zoom:1;
+	BACKGROUND: url(http://img.zdic.net/zdicpic/images/bg.gif) ;
+}
+.block a {
+	text-decoration:none;
+}
+.block_heading {
+	background:#af9a87;
+	padding:3px 15px;
+	font-weight:bold;
+	zoom:1;
+}
+.block_content {
+	padding:10px 0;
+}
+.block_content p {
+	padding:0 10px;
+}
+</style>
+
+</HEAD>
+
+<body>
+<DIV id=wrapper>
+  <DIV id=sitelogo><img src="/images/logo.gif"></DIV>
+  <DIV id=header></DIV>
+  <script language="javascript" src="/js/topmenu.js" type="text/javascript"></script>
+  <DIV id=container>
+    
+    <script language="javascript" src="/js/zd_sec.js" type="text/javascript"></script>
+<div id="w" class="help">
+  <div class="content">
+    <div class="block">
+      <div class="block_content">
+        <p><strong>抱歉：</strong></p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;您所访问的资源不存在:&nbsp;&nbsp;<a href="http://www.zdic.net">点击返回汉典首页»</a></p>
+                <div class="clr"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+ <script type="text/javascript" src="/js/foot.js"></script>
+</DIV>
+</div>
+</body>
+</html>
