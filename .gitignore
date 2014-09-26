@@ -6,3 +6,5 @@ node_modules
 bower_components
 # 生成文件
 dist
+# 日志文件
+*.log

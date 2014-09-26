@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="pinyin" ng-csp>
   <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="css/index.min.css" rel="stylesheet"/>
     <meta charset="utf-8" />
-    <title>index</title>
+    <title>小学生学拼音</title>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
   </head>
-  <body>
-    
+  <body ng-controller="PinyinCtrl">
+    <nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">
+            <img height="20" src="img/logo.jpg"/>
+            小学生学拼音
+          </a>
+        </div><!-- navbar-header -->
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">课程</a></li>
+            <li><a href="#">测试</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">帮助<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="http://sh-wdxx.whcedu.cn" target="_blank">威海市望岛小学</a></li>
+                <li class="divider"></li>
+                <li><a ng-click="about()">关于</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!-- navbar-collapse -->
+      </div><!-- container-fluid -->
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>{{ course.title }}</h1>
+        <p>{{ course.summary }}</p>
+        <p>
+          <span ng-repeat="s in course.sound">
+            <button class="btn btn-success btn-lg sound" music-player="play" add-song="s">{{ s.title }}</button>
+          </span>
+        </p>
+        <p>
+          <button class="btn btn-primary btn-lg" ng-click="go()">{{ course.button }}</button>
+        </p>
+      </div>
+    </div><!-- container-fluid -->
+    <footer>
+      <div class="container">
+        威海市望岛小学，一年一班
+      </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/ui-bootstrap-tpls.min.js"></script>
+    <script src="js/angular-soundmanager2.js"></script>
+    <script src="js/index.min.js"></script>
   </body>
 </html>
-

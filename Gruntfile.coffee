@@ -31,6 +31,26 @@ module.exports = (grunt)->
           filter: 'isFile'
           expand: true
         ]
+      img:
+        files: [
+          cwd: 'src/img'
+          src: [
+            '*'
+          ]
+          dest: 'dist/img'
+          filter: 'isFile'
+          expand: true
+        ]
+      mp3:
+        files: [
+          cwd: 'src/mp3'
+          src: [
+            '*.mp3'
+          ]
+          dest: 'dist/mp3'
+          filter: 'isFile'
+          expand: true
+        ]
       bootstrap:
         files: [
           cwd: 'bower_components/bootstrap/dist'
@@ -51,7 +71,7 @@ module.exports = (grunt)->
             'angular.min.js'
             'angular.min.js.map'
           ]
-          dest: 'dist'
+          dest: 'dist/js'
           expand: true
           filter: 'isFile'
         ]
@@ -61,6 +81,16 @@ module.exports = (grunt)->
           src: [
             'jquery.min.js'
             'jquery.min.map'
+          ]
+          dest: 'dist/js'
+          expand: true
+          filter: 'isFile'
+        ]
+      sound:
+        files: [
+          cwd: 'bower_components/angular-soundmanager2/dist'
+          src: [
+            'angular-soundmanager2.js'
           ]
           dest: 'dist/js'
           expand: true
@@ -102,6 +132,7 @@ module.exports = (grunt)->
       main:
         files:
           'dist/js/index.min.js': [
+            'src/js/course.coffee'
             'src/js/index.coffee'
           ]
     uglify:
@@ -116,6 +147,7 @@ module.exports = (grunt)->
         cwd: 'src/css/'
         src: ['*.css', '!*.min.css'],
         dest: 'dist/css/'
+        ext: '.min.css'
     watch:
       css:
         files: [
