@@ -52,8 +52,14 @@
               </p>
             </div><!-- main -->
             <p class="text-center">
-              <button ng-show="page" class="btn btn-primary btn-lg" ng-click="read()">{{ page.button }}</button>
-              <button class="pull-right btn btn-warning btn-lg" ng-click="next()">{{ course.button }}</button>
+              <button ng-show="page" class="btn btn-primary btn-lg" ng-click="read()">
+                <i class="fa fa-arrow-circle-right"></i>
+                {{ page.button }}
+              </button>
+              <button class="pull-right btn btn-warning btn-lg" ng-click="next()">
+                <i class="fa fa-book"></i>
+                {{ course.button }}
+              </button>
             </p>
           </div><!-- jumbotron -->
         </div><!-- 9 -->
