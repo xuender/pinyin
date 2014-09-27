@@ -38,24 +38,29 @@
     </nav>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-9">
+        <div class="col-xs-10">
           <div class="jumbotron">
             <h1>{{ course.title }}</h1>
             <p>{{ course.summary }}</p>
-            <p class="main text-center">
-              <span ng-repeat="s in course.sound">
-                <button class="btn btn-success btn-lg sound" music-player="play" add-song="s">{{ s.title }}</button>
-              </span>
-            </p>
+            <div class="main">
+              <p ng-show="page" class="text-center">
+                <h2>{{ page.title }}</h2>
+                <p>{{ page.summary }}</p>
+                <span ng-repeat="s in page.sound">
+                  <button class="btn btn-success btn-lg sound" music-player="play" add-song="s">{{ s.title }}</button>
+                </span>
+              </p>
+            </div><!-- main -->
             <p class="text-center">
-              <button class="btn btn-primary btn-lg" ng-click="go()">{{ course.button }}</button>
+              <button ng-show="page" class="btn btn-primary btn-lg" ng-click="read()">{{ page.button }}</button>
+              <button class="pull-right btn btn-warning btn-lg" ng-click="next()">{{ course.button }}</button>
             </p>
           </div><!-- jumbotron -->
         </div><!-- 9 -->
-        <div class="col-xs-3">
+        <div class="col-xs-2">
           <ul class="nav nav-pills nav-stacked" role="tablist">
-            <li ng-repeat="c in courses | filter:'开始'" role="presentation" ng-class="{'active':c == course}">
-              <a href="#">{{ c.title }}</a>
+            <li ng-repeat="c in courses | filter:'第'" role="presentation" ng-class="{'active':c == course}">
+              <a href ng-click="go(c)">{{ c.title }}</a>
             </li>
           </ul>
         </div>

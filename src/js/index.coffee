@@ -12,15 +12,30 @@ PinyinCtrl = ($scope, $modal)->
   ### 主控制器 ###
   console.info '威海市望岛小学一年一班徐若源爸爸制作'
   console.info '2014-09-26'
-  $scope.num = -1
   $scope.courses = COURSE
-  $scope.go = ->
+  $scope.next = ->
     # 继续
-    $scope.num++
-    $scope.course = $scope.courses[$scope.num]
-    if $scope.num >= $scope.courses.length
-      $scope.num = -1
-  $scope.go()
+    if $scope.course == $scope.courses[$scope.courses.length - 1]
+      $scope.go($scope.courses[0])
+    else
+      for i in [0..$scope.courses.length-1]
+        if $scope.course == $scope.courses[i]
+          $scope.go($scope.courses[i+1])
+          return
+  $scope.go = (c)->
+    # 跳转
+    $scope.course = c
+    $scope.page = null
+    if 'pages' of $scope.course
+      $scope.p = -1
+      $scope.read()
+  $scope.read = ->
+    $scope.p++
+    if $scope.p >= $scope.course.pages.length
+      $scope.next()
+    else
+      $scope.page = $scope.course.pages[$scope.p]
+  $scope.go($scope.courses[0])
 PinyinCtrl.$inject = [
   '$scope'
   '$modal'

@@ -5,6 +5,15 @@
  * Distributed under terms of the MIT license.
  */
 
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],
+.ng-cloak, .x-ng-cloak,
+.ng-hide {
+  display: none !important;
+}
+
+ng\:form {
+  display: block;
+}
 body {
   background: white;
   color: black;
@@ -27,5 +36,5 @@ footer {
   */
 }
 .main {
-  height: 200px;
+  height: 290px;
 }
