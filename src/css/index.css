@@ -20,9 +20,12 @@ footer {
 }
 .sound {
   font-size: 100px;
-  width: 150px;
+  width: 200px;
   /*
   padding-left: 40px;
   padding-right: 40px;
   */
+}
+.main {
+  height: 200px;
 }

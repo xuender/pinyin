@@ -36,19 +36,30 @@
         </div><!-- navbar-collapse -->
       </div><!-- container-fluid -->
     </nav>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>{{ course.title }}</h1>
-        <p>{{ course.summary }}</p>
-        <p>
-          <span ng-repeat="s in course.sound">
-            <button class="btn btn-success btn-lg sound" music-player="play" add-song="s">{{ s.title }}</button>
-          </span>
-        </p>
-        <p>
-          <button class="btn btn-primary btn-lg" ng-click="go()">{{ course.button }}</button>
-        </p>
-      </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-9">
+          <div class="jumbotron">
+            <h1>{{ course.title }}</h1>
+            <p>{{ course.summary }}</p>
+            <p class="main text-center">
+              <span ng-repeat="s in course.sound">
+                <button class="btn btn-success btn-lg sound" music-player="play" add-song="s">{{ s.title }}</button>
+              </span>
+            </p>
+            <p class="text-center">
+              <button class="btn btn-primary btn-lg" ng-click="go()">{{ course.button }}</button>
+            </p>
+          </div><!-- jumbotron -->
+        </div><!-- 9 -->
+        <div class="col-xs-3">
+          <ul class="nav nav-pills nav-stacked" role="tablist">
+            <li ng-repeat="c in courses | filter:'开始'" role="presentation" ng-class="{'active':c == course}">
+              <a href="#">{{ c.title }}</a>
+            </li>
+          </ul>
+        </div>
+      </div><!-- row -->
     </div><!-- container-fluid -->
     <footer>
       <div class="container">
