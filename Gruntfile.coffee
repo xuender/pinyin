@@ -56,9 +56,7 @@ module.exports = (grunt)->
           cwd: 'bower_components/bootstrap/dist'
           src: [
             'css/*.min.css'
-            'css/*.map'
             'js/*.min.js'
-            'js/*.map'
           ]
           dest: 'dist'
           expand: true
@@ -67,9 +65,7 @@ module.exports = (grunt)->
         files: [
           cwd: 'bower_components/angular/'
           src: [
-            'angular.js'
             'angular.min.js'
-            'angular.min.js.map'
           ]
           dest: 'dist/js'
           expand: true
@@ -80,7 +76,6 @@ module.exports = (grunt)->
           cwd: 'bower_components/jquery/dist'
           src: [
             'jquery.min.js'
-            'jquery.min.map'
           ]
           dest: 'dist/js'
           expand: true
@@ -178,6 +173,7 @@ module.exports = (grunt)->
     'clean'
     'copy',
     'coffee'
+    'cssmin'
   ])
   grunt.registerTask('dist', [
     'dev'

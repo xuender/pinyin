@@ -22,19 +22,25 @@ body {
 footer {
   padding-top: 40px;
   padding-bottom: 40px;
-  margin-top: 100px;
+  /*margin-top: 100px;*/
   color: #777;
   text-align: center;
   border-top: 1px solid #e5e5e5;
 }
 .sound {
-  font-size: 100px;
-  width: 200px;
+  font-size: 4em;
+  width: 3.3em;
   /*
   padding-left: 40px;
   padding-right: 40px;
   */
 }
 .main {
-  height: 290px;
+  height: 12em;
+}
+.summary {
+  height: 5em;
+}
+.buttons {
+  height: 45px;
 }

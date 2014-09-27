@@ -26,17 +26,33 @@ PinyinCtrl = ($scope, $modal)->
     # 跳转
     $scope.course = c
     $scope.page = null
-    if 'pages' of $scope.course
-      $scope.p = -1
-      $scope.read()
+    $scope.p = -1
+    #if 'pages' of $scope.course
+    #  $scope.p = -1
+    #  $scope.read()
   $scope.read = ->
     $scope.p++
     if $scope.p >= $scope.course.pages.length
       $scope.next()
     else
       $scope.page = $scope.course.pages[$scope.p]
+  $scope.about = ->
+    # 关于
+    $modal.open(
+      templateUrl: 'about.html'
+      controller: AboutCtrl
+      backdrop: 'static'
+      keyboard: true
+      size: 'sm'
+    )
   $scope.go($scope.courses[0])
+  $scope.show = true
 PinyinCtrl.$inject = [
   '$scope'
   '$modal'
 ]
+AboutCtrl = ($scope, $modalInstance)->
+  $scope.cancel = ->
+    $modalInstance.dismiss('cancel')
+
+AboutCtrl.$inject = ['$scope', '$modalInstance']
