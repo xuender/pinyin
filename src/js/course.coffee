@@ -717,7 +717,7 @@ COURSE = [
   }
   {
     title: '再见'
-    summary: '今天就学习道这里吧'
+    summary: '今天就学到这里吧'
     button: '重来'
   }
 ]

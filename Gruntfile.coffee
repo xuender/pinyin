@@ -61,6 +61,16 @@ module.exports = (grunt)->
           dest: 'dist'
           expand: true
         ]
+      fastclick:
+        files: [
+          cwd: 'bower_components/fastclick/lib'
+          src: [
+            'fastclick.js'
+          ]
+          dest: 'dist/js'
+          expand: true
+          filter: 'isFile'
+        ]
       angular:
         files: [
           cwd: 'bower_components/angular/'

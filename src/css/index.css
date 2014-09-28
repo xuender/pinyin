@@ -14,6 +14,9 @@
 ng\:form {
   display: block;
 }
+a, input, button {
+  -ms-touch-action: none !important;
+}
 body {
   background: white;
   color: black;
@@ -33,14 +36,11 @@ footer {
   /*
   padding-left: 40px;
   padding-right: 40px;
-  */
+   */
 }
 .main {
   height: 12em;
 }
 .summary {
   height: 5em;
-}
-.buttons {
-  height: 45px;
 }
