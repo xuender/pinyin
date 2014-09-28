@@ -7,8 +7,12 @@ Distributed under terms of the MIT license.
 angular.module('pinyin', [
   'ngRoute'
   'ui.bootstrap'
+  'ngAnimate'
   'angularSoundManager'
-]).config(['$routeProvider', ($routeProvider)->
+], ($httpProvider)->
+  FastClick.attach(document.body)
+  delete $httpProvider.defaults.headers.common['X-Requested-With']
+).config(['$routeProvider', ($routeProvider)->
   $routeProvider.
     when('/:courseId',
       templateUrl: 'course.html'

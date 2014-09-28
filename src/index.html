@@ -46,7 +46,8 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-10">
-          <div ng-view></div>
+          <!--<div ng-view class="reveal-animation"></div>-->
+          <div ng-view class="reveal-animation"></div>
         </div><!-- 9 -->
         <div class="col-xs-2">
           <ul class="nav nav-pills nav-stacked" role="tablist">
@@ -89,7 +90,7 @@
           <div class="main">
           </div><!-- main -->
           <p class="text-right">
-            <a ng-show="course.pages" class="btn btn-primary btn-lg" href="#/{{ course.id }}/0">
+            <a ng-show="course.pages" ng-animate="'fade'" class="btn btn-primary btn-lg" href="#/{{ course.id }}/0">
               <i class="fa fa-play"></i>
               继续
             </a>
