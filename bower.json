@@ -20,11 +20,13 @@
   ],
   "dependencies": {
     "jquery": "~2.1.1",
-    "angular": "~1.2.21",
+    "angular": "~1.2.*",
     "bootstrap": "~3.2.0",
     "angular-bootstrap": "~0.11.0",
     "font-awesome": "~4.1.0",
     "angular-soundmanager2": "~0.2.3",
-    "fastclick": "~1.0.3"
+    "fastclick": "~1.0.3",
+    "angular-route": "~1.2.*",
+    "angular-animate": "~1.2.*"
   }
 }

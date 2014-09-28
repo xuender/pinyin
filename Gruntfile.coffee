@@ -81,6 +81,26 @@ module.exports = (grunt)->
           expand: true
           filter: 'isFile'
         ]
+      angularRoute:
+        files: [
+          cwd: 'bower_components/angular-route/'
+          src: [
+            'angular-route.min.js'
+          ]
+          dest: 'dist/js'
+          expand: true
+          filter: 'isFile'
+        ]
+      angularAnimate:
+        files: [
+          cwd: 'bower_components/angular-animate/'
+          src: [
+            'angular-animate.min.js'
+          ]
+          dest: 'dist/js'
+          expand: true
+          filter: 'isFile'
+        ]
       #jquery:
       #  files: [
       #    cwd: 'bower_components/jquery/dist'
