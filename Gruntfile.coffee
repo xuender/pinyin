@@ -71,16 +71,16 @@ module.exports = (grunt)->
           expand: true
           filter: 'isFile'
         ]
-      jquery:
-        files: [
-          cwd: 'bower_components/jquery/dist'
-          src: [
-            'jquery.min.js'
-          ]
-          dest: 'dist/js'
-          expand: true
-          filter: 'isFile'
-        ]
+      #jquery:
+      #  files: [
+      #    cwd: 'bower_components/jquery/dist'
+      #    src: [
+      #      'jquery.min.js'
+      #    ]
+      #    dest: 'dist/js'
+      #    expand: true
+      #    filter: 'isFile'
+      #  ]
       sound:
         files: [
           cwd: 'bower_components/angular-soundmanager2/dist'

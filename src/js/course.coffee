@@ -17,8 +17,8 @@ COURSE = [
     button: '下一课'
     pages: [
       {
-        title: 'a'
-        summary: 'a 的4个音调'
+        title: 'a 的4个音调'
+        summary: '小女孩唱歌，张大嘴巴 a'
         sound: [
           {id: 'a1', title: 'ā', url: 'mp3/a1.mp3'}
           {id: 'a2', title: 'á', url: 'mp3/a2.mp3'}
@@ -28,8 +28,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'o'
-        summary: 'o 的4个音调'
+        title: 'o 的4个音调'
+        summary: '嘴巴圆圆 o'
         sound: [
           {id: 'o1', title: 'ō', url: 'mp3/o1.mp3'}
           {id: 'o2', title: 'ó', url: 'mp3/o2.mp3'}
@@ -39,8 +39,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'e'
-        summary: 'e 的4个音调'
+        title: 'e 的4个音调'
+        summary: '嘴巴扁扁 e'
         sound: [
           {id: 'e1', title: 'ē', url: 'mp3/e1.mp3'}
           {id: 'e2', title: 'é', url: 'mp3/e2.mp3'}
@@ -57,8 +57,8 @@ COURSE = [
     button: '下一课'
     pages: [
       {
-        title: 'i'
-        summary: 'i 的4个音调'
+        title: 'i 的4个音调'
+        summary: '阿姨晒衣服，牙齿对齐 i'
         sound: [
           {id: 'i1', title: 'ī', url: 'mp3/i1.mp3'}
           {id: 'i2', title: 'í', url: 'mp3/i2.mp3'}
@@ -68,8 +68,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'u'
-        summary: 'u 的4个音调'
+        title: 'u 的4个音调'
+        summary: '嘴巴尖尖 u'
         sound: [
           {id: 'u1', title: 'ū', url: 'mp3/u1.mp3'}
           {id: 'u2', title: 'ú', url: 'mp3/u2.mp3'}
@@ -79,8 +79,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'ü'
-        summary: 'ü 的4个音调'
+        title: 'ü 的4个音调'
+        summary: '嘴巴吹笛 ü ü ü'
         sound: [
           {id: 'v1', title: 'ǖ', url: 'mp3/v1.mp3'}
           {id: 'v2', title: 'ǘ', url: 'mp3/v2.mp3'}
@@ -90,8 +90,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'y yi'
-        summary: 'yi 的4个音调'
+        title: 'yi 的4个音调'
+        summary: '小 i 见到 y 还念 yi'
         sound: [
           {id: 'y1', title: 'yī', url: 'mp3/i1.mp3'}
           {id: 'y2', title: 'yí', url: 'mp3/i2.mp3'}
@@ -101,8 +101,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'w wu'
-        summary: 'wu 的4个音调'
+        title: 'wu 的4个音调'
+        summary: '小 u 大 w 在一起 wu'
         sound: [
           {id: 'w1', title: 'wū', url: 'mp3/u1.mp3'}
           {id: 'w2', title: 'wú', url: 'mp3/u2.mp3'}
@@ -112,8 +112,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'yu'
-        summary: 'yu 的4个音调'
+        title: 'yu 的4个音调'
+        summary: '小 ü 见到 y 脱帽敬个礼 yu'
         sound: [
           {id: 'yu1', title: 'yū', url: 'mp3/v1.mp3'}
           {id: 'yu2', title: 'yú', url: 'mp3/v2.mp3'}
@@ -131,7 +131,7 @@ COURSE = [
     pages: [
       {
         title: 'b p m f'
-        summary: 'b p m f'
+        summary: '小姐姐听广播，右下半圆 b。小男孩去爬坡，右上半圆 p。两个门洞m。一根拐棍 f。'
         sound: [
           {id: 'b', title: 'b', url: 'mp3/b.mp3'}
           {id: 'p', title: 'p', url: 'mp3/p.mp3'}
@@ -141,8 +141,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'bo'
-        summary: 'bo 的4个音调'
+        title: 'bo 的4个音调'
+        summary: 'b-o → bo'
         sound: [
           {id: 'bo1', title: 'bō', url: 'mp3/bo1.mp3'}
           {id: 'bo2', title: 'bó', url: 'mp3/bo2.mp3'}
@@ -152,8 +152,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'po'
-        summary: 'po 的4个音调'
+        title: 'po 的4个音调'
+        summary: 'p-o → po'
         sound: [
           {id: 'po1', title: 'pō', url: 'mp3/po1.mp3'}
           {id: 'po2', title: 'pó', url: 'mp3/po2.mp3'}
@@ -163,8 +163,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'mo'
-        summary: 'mo 的4个音调'
+        title: 'mo 的4个音调'
+        summary: 'm-o → mo'
         sound: [
           {id: 'mo1', title: 'mō', url: 'mp3/mo1.mp3'}
           {id: 'mo2', title: 'mó', url: 'mp3/mo2.mp3'}
@@ -174,8 +174,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'fo'
-        summary: 'fo 的4个音调'
+        title: 'fo 的4个音调'
+        summary: 'f-o → fo'
         sound: [
           {id: 'fo1', title: 'fō', url: 'mp3/fo1.mp3'}
           {id: 'fo2', title: 'fó', url: 'mp3/fo2.mp3'}
@@ -193,7 +193,7 @@ COURSE = [
     pages: [
       {
         title: 'd t n l'
-        summary: 'd t n l'
+        summary: '左下半圆 d。小伞把儿 t。一个门洞 n。一根小棍 l。'
         sound: [
           {id: 'd', title: 'd', url: 'mp3/d.mp3'}
           {id: 't', title: 't', url: 'mp3/t.mp3'}
@@ -203,8 +203,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'de'
-        summary: 'de 的4个音调'
+        title: 'de 的4个音调'
+        summary: 'd-e → de'
         sound: [
           {id: 'de1', title: 'dē', url: 'mp3/de1.mp3'}
           {id: 'de2', title: 'dé', url: 'mp3/de2.mp3'}
@@ -214,8 +214,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'te'
-        summary: 'te 的4个音调'
+        title: 'te 的4个音调'
+        summary: 't-e → te'
         sound: [
           {id: 'te1', title: 'tē', url: 'mp3/te1.mp3'}
           {id: 'te2', title: 'té', url: 'mp3/te2.mp3'}
@@ -225,8 +225,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'ne'
-        summary: 'ne 的4个音调'
+        title: 'ne 的4个音调'
+        summary: 'n-e → ne'
         sound: [
           {id: 'ne1', title: 'nē', url: 'mp3/ne1.mp3'}
           {id: 'ne2', title: 'né', url: 'mp3/ne2.mp3'}
@@ -236,8 +236,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'le'
-        summary: 'le 的4个音调'
+        title: 'le 的4个音调'
+        summary: 'l-e → le'
         sound: [
           {id: 'le1', title: 'lē', url: 'mp3/le1.mp3'}
           {id: 'le2', title: 'lé', url: 'mp3/le2.mp3'}
@@ -255,7 +255,7 @@ COURSE = [
     pages: [
       {
         title: 'g k h'
-        summary: 'g k h'
+        summary: '一只鸽子g。一群蝌蚪 k。像把椅子 h。'
         sound: [
           {id: 'g', title: 'g', url: 'mp3/g.mp3'}
           {id: 'k', title: 'k', url: 'mp3/k.mp3'}
@@ -264,8 +264,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'ge'
-        summary: 'ge 的4个音调'
+        title: 'ge 的4个音调'
+        summary: 'g-e → ge'
         sound: [
           {id: 'ge1', title: 'gē', url: 'mp3/ge1.mp3'}
           {id: 'ge2', title: 'gé', url: 'mp3/ge2.mp3'}
@@ -275,8 +275,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'ke'
-        summary: 'ke 的4个音调'
+        title: 'ke 的4个音调'
+        summary: 'k-e → ke'
         sound: [
           {id: 'ke1', title: 'kē', url: 'mp3/ke1.mp3'}
           {id: 'ke2', title: 'ké', url: 'mp3/ke2.mp3'}
@@ -286,8 +286,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'he'
-        summary: 'he 的4个音调'
+        title: 'he 的4个音调'
+        summary: 'h-e → he'
         sound: [
           {id: 'he1', title: 'hē', url: 'mp3/he1.mp3'}
           {id: 'he2', title: 'hé', url: 'mp3/he2.mp3'}
@@ -305,7 +305,7 @@ COURSE = [
     pages: [
       {
         title: 'j q x'
-        summary: 'j q x'
+        summary: '一只母鸡 j。七只气球 q。刀切西瓜 x。'
         sound: [
           {id: 'j', title: 'j', url: 'mp3/j.mp3'}
           {id: 'q', title: 'q', url: 'mp3/q.mp3'}
@@ -314,8 +314,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'ji'
-        summary: 'ji 的4个音调'
+        title: 'ji 的4个音调'
+        summary: 'j-i → ji'
         sound: [
           {id: 'ji1', title: 'jī', url: 'mp3/ji1.mp3'}
           {id: 'ji2', title: 'jí', url: 'mp3/ji2.mp3'}
@@ -325,8 +325,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'qi'
-        summary: 'qi 的4个音调'
+        title: 'qi 的4个音调'
+        summary: 'q-i → qi'
         sound: [
           {id: 'qi1', title: 'qī', url: 'mp3/qi1.mp3'}
           {id: 'qi2', title: 'qí', url: 'mp3/qi2.mp3'}
@@ -336,8 +336,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'xi'
-        summary: 'xi 的4个音调'
+        title: 'xi 的4个音调'
+        summary: 'x-i → xi'
         sound: [
           {id: 'xi1', title: 'xī', url: 'mp3/xi1.mp3'}
           {id: 'xi2', title: 'xí', url: 'mp3/xi2.mp3'}
@@ -355,7 +355,7 @@ COURSE = [
     pages: [
       {
         title: 'z c s'
-        summary: 'z c s'
+        summary: '像个小2 z。小小刺猬 c。蚕儿吐丝 s。'
         sound: [
           {id: 'z', title: 'z', url: 'mp3/z.mp3'}
           {id: 'c', title: 'c', url: 'mp3/c.mp3'}
@@ -405,7 +405,7 @@ COURSE = [
     pages: [
       {
         title: 'zh ch sh r'
-        summary: 'zh ch sh r'
+        summary: '妈妈织毛衣 zh。c加椅子 ch。一只狮子 sh。一轮红日 r。'
         sound: [
           {id: 'zh', title: 'zh', url: 'mp3/zh.mp3'}
           {id: 'ch', title: 'ch', url: 'mp3/ch.mp3'}
@@ -466,8 +466,8 @@ COURSE = [
     button: '下一课'
     pages: [
       {
-        title: 'ai'
-        summary: 'ai 的4个音调'
+        title: 'ai 的4个音调'
+        summary: '姐姐高，弟弟矮 ai'
         sound: [
           {id: 'ai1', title: 'āi', url: 'mp3/ai1.mp3'}
           {id: 'ai2', title: 'ái', url: 'mp3/ai2.mp3'}
@@ -477,8 +477,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'ei'
-        summary: 'ei 的4个音调'
+        title: 'ei 的4个音调'
+        summary: '丁丁砍柴 ei'
         sound: [
           {id: 'ei1', title: 'ēi', url: 'mp3/ei1.mp3'}
           {id: 'ei2', title: 'éi', url: 'mp3/ei2.mp3'}
@@ -488,8 +488,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'ui'
-        summary: 'ui 的4个音调'
+        title: 'ui 的4个音调'
+        summary: '黄色围巾 ui'
         sound: [
           {id: 'ui1', title: 'uī', url: 'mp3/ui1.mp3'}
           {id: 'ui2', title: 'uí', url: 'mp3/ui2.mp3'}
@@ -506,8 +506,8 @@ COURSE = [
     button: '下一课'
     pages: [
       {
-        title: 'ao'
-        summary: 'ao 的4个音调'
+        title: 'ao 的4个音调'
+        summary: '奥运五环 ao'
         sound: [
           {id: 'ao1', title: 'āo', url: 'mp3/ao1.mp3'}
           {id: 'ao2', title: 'áo', url: 'mp3/ao2.mp3'}
@@ -517,8 +517,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'ou'
-        summary: 'ou 的4个音调'
+        title: 'ou 的4个音调'
+        summary: '白色鲜藕 ou'
         sound: [
           {id: 'ou1', title: 'ōu', url: 'mp3/ou1.mp3'}
           {id: 'ou2', title: 'óu', url: 'mp3/ou2.mp3'}
@@ -528,8 +528,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'iu'
-        summary: 'iu 的4个音调'
+        title: 'iu 的4个音调'
+        summary: '两人游泳 iu'
         sound: [
           {id: 'iu1', title: 'iū', url: 'mp3/iu1.mp3'}
           {id: 'iu2', title: 'iú', url: 'mp3/iu2.mp3'}
@@ -546,8 +546,8 @@ COURSE = [
     button: '下一课'
     pages: [
       {
-        title: 'ye'
-        summary: 'ye 的4个音调'
+        title: 'ye 的4个音调'
+        summary: '一棵椰树 ie'
         sound: [
           {id: 'ye1', title: 'yē', url: 'mp3/ye1.mp3'}
           {id: 'ye2', title: 'yé', url: 'mp3/ye2.mp3'}
@@ -557,8 +557,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'yue'
-        summary: 'yue 的4个音调'
+        title: 'yue 的4个音调'
+        summary: '月儿弯弯 üe'
         sound: [
           {id: 'yue1', title: 'yuē', url: 'mp3/yue1.mp3'}
           {id: 'yue2', title: 'yué', url: 'mp3/yue2.mp3'}
@@ -568,8 +568,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'er'
-        summary: 'er 的4个音调'
+        title: 'er 的4个音调'
+        summary: '这是耳朵 er'
         sound: [
           {id: 'er1', title: 'ēr', url: 'mp3/er1.mp3'}
           {id: 'er2', title: 'ér', url: 'mp3/er2.mp3'}
@@ -586,8 +586,8 @@ COURSE = [
     button: '下一课'
     pages: [
       {
-        title: 'an'
-        summary: 'an 的4个音调'
+        title: 'an 的4个音调'
+        summary: '天安门 an'
         sound: [
           {id: 'an1', title: 'ān', url: 'mp3/an1.mp3'}
           {id: 'an2', title: 'án', url: 'mp3/an2.mp3'}
@@ -597,8 +597,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'en'
-        summary: 'en 的4个音调'
+        title: 'en 的4个音调'
+        summary: '摁门铃 en'
         sound: [
           {id: 'en1', title: 'ēn', url: 'mp3/en1.mp3'}
           {id: 'en2', title: 'én', url: 'mp3/en2.mp3'}
@@ -608,8 +608,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'in'
-        summary: 'in 的4个音调'
+        title: 'in 的4个音调'
+        summary: '树荫下 in'
         sound: [
           {id: 'in1', title: 'īn', url: 'mp3/in1.mp3'}
           {id: 'in2', title: 'ín', url: 'mp3/in2.mp3'}
@@ -619,8 +619,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'un'
-        summary: 'un 的4个音调'
+        title: 'un 的4个音调'
+        summary: '大蚊子 un'
         sound: [
           {id: 'un1', title: 'ūn', url: 'mp3/un1.mp3'}
           {id: 'un2', title: 'ún', url: 'mp3/un2.mp3'}
@@ -630,8 +630,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'ün'
-        summary: 'ün 的4个音调'
+        title: 'ün 的4个音调'
+        summary: '一朵白云 ün'
         sound: [
           {id: 'vn1', title: 'ǖn', url: 'mp3/vn1.mp3'}
           {id: 'vn2', title: 'ǘn', url: 'mp3/vn2.mp3'}
@@ -655,10 +655,10 @@ COURSE = [
         title: 'yun'
         summary: 'yun 的4个音调'
         sound: [
-          {id: 'yun1', title: 'yǖn', url: 'mp3/yun1.mp3'}
-          {id: 'yun2', title: 'yǘn', url: 'mp3/yun2.mp3'}
-          {id: 'yun3', title: 'yǚn', url: 'mp3/yun3.mp3'}
-          {id: 'yun4', title: 'yǜn', url: 'mp3/yun4.mp3'}
+          {id: 'yun1', title: 'yūn', url: 'mp3/yun1.mp3'}
+          {id: 'yun2', title: 'yún', url: 'mp3/yun2.mp3'}
+          {id: 'yun3', title: 'yǔn', url: 'mp3/yun3.mp3'}
+          {id: 'yun4', title: 'yùn', url: 'mp3/yun4.mp3'}
         ]
         button: '继续'
       }
@@ -670,8 +670,8 @@ COURSE = [
     button: '下一课'
     pages: [
       {
-        title: 'ang'
-        summary: 'ang 的4个音调'
+        title: 'ang 的4个音调'
+        summary: '一只山羊 ang'
         sound: [
           {id: 'ang1', title: 'āng', url: 'mp3/ang1.mp3'}
           {id: 'ang2', title: 'áng', url: 'mp3/ang2.mp3'}
@@ -681,8 +681,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'eng'
-        summary: 'eng 的4个音调'
+        title: 'eng 的4个音调'
+        summary: '一盏台灯 eng'
         sound: [
           {id: 'eng1', title: 'ēng', url: 'mp3/eng1.mp3'}
           {id: 'eng2', title: 'éng', url: 'mp3/eng2.mp3'}
@@ -692,8 +692,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'ing'
-        summary: 'ing 的4个音调'
+        title: 'ing 的4个音调'
+        summary: '小鹦鹉 ing'
         sound: [
           {id: 'ing1', title: 'īng', url: 'mp3/ing1.mp3'}
           {id: 'ing2', title: 'íng', url: 'mp3/ing2.mp3'}
@@ -703,8 +703,8 @@ COURSE = [
         button: '继续'
       }
       {
-        title: 'ong'
-        summary: 'ong 的4个音调'
+        title: 'ong 的4个音调'
+        summary: '一个铜铃 ong'
         sound: [
           {id: 'ong1', title: 'ōng', url: 'mp3/ong1.mp3'}
           {id: 'ong2', title: 'óng', url: 'mp3/ong2.mp3'}

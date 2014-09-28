@@ -1,6 +1,6 @@
 {
     "name": "pinyin",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "平台",
     "main": "index.html",
     "scripts": {
